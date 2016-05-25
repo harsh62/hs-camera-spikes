@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373ABE0133A40D8A90FF1F7A /* libPods-openCVSpike.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19928CCFE4189CCEC4A27431 /* libPods-openCVSpike.a */; };
+		8A893E8E1C9318BE00B4E939 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A893E8A1C9318BE00B4E939 /* CoreGraphics.framework */; };
+		8A893E8F1C9318BE00B4E939 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A893E8B1C9318BE00B4E939 /* CoreImage.framework */; };
+		8A893E901C9318BE00B4E939 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A893E8C1C9318BE00B4E939 /* CoreMedia.framework */; };
+		8A893E911C9318BE00B4E939 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A893E8D1C9318BE00B4E939 /* CoreMotion.framework */; };
+		8A893E931C9318C900B4E939 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A893E921C9318C900B4E939 /* AVFoundation.framework */; };
+		8A893E951C931D6B00B4E939 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A893E941C931D6B00B4E939 /* AssetsLibrary.framework */; };
+		8ABC7D421C93166C00F5CF03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC7D411C93166C00F5CF03 /* main.m */; };
+		8ABC7D451C93166C00F5CF03 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC7D441C93166C00F5CF03 /* AppDelegate.mm */; };
+		8ABC7D481C93166C00F5CF03 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC7D471C93166C00F5CF03 /* ViewController.mm */; };
+		8ABC7D4B1C93166C00F5CF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC7D491C93166C00F5CF03 /* Main.storyboard */; };
+		8ABC7D4D1C93166C00F5CF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC7D4C1C93166C00F5CF03 /* Assets.xcassets */; };
+		8ABC7D501C93166C00F5CF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABC7D4E1C93166C00F5CF03 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19928CCFE4189CCEC4A27431 /* libPods-openCVSpike.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-openCVSpike.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7802666850817BF2B1B07653 /* Pods-openCVSpike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openCVSpike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openCVSpike/Pods-openCVSpike.debug.xcconfig"; sourceTree = "<group>"; };
+		8A893E8A1C9318BE00B4E939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A893E8B1C9318BE00B4E939 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8A893E8C1C9318BE00B4E939 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8A893E8D1C9318BE00B4E939 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8A893E921C9318C900B4E939 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8A893E941C931D6B00B4E939 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8A893E961C931D8200B4E939 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		8ABC7D3D1C93166C00F5CF03 /* openCVSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openCVSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABC7D411C93166C00F5CF03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ABC7D431C93166C00F5CF03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ABC7D441C93166C00F5CF03 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		8ABC7D461C93166C00F5CF03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ABC7D471C93166C00F5CF03 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		8ABC7D4A1C93166C00F5CF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ABC7D4C1C93166C00F5CF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ABC7D4F1C93166C00F5CF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ABC7D511C93166C00F5CF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A6D660F8C270A299156C6B /* Pods-openCVSpike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openCVSpike.release.xcconfig"; path = "Pods/Target Support Files/Pods-openCVSpike/Pods-openCVSpike.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ABC7D3A1C93166C00F5CF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A893E951C931D6B00B4E939 /* AssetsLibrary.framework in Frameworks */,
+				8A893E931C9318C900B4E939 /* AVFoundation.framework in Frameworks */,
+				8A893E8E1C9318BE00B4E939 /* CoreGraphics.framework in Frameworks */,
+				8A893E8F1C9318BE00B4E939 /* CoreImage.framework in Frameworks */,
+				8A893E901C9318BE00B4E939 /* CoreMedia.framework in Frameworks */,
+				8A893E911C9318BE00B4E939 /* CoreMotion.framework in Frameworks */,
+				373ABE0133A40D8A90FF1F7A /* libPods-openCVSpike.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1DF4C0BAEE7449139C4E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A893E941C931D6B00B4E939 /* AssetsLibrary.framework */,
+				8A893E921C9318C900B4E939 /* AVFoundation.framework */,
+				8A893E8A1C9318BE00B4E939 /* CoreGraphics.framework */,
+				8A893E8B1C9318BE00B4E939 /* CoreImage.framework */,
+				8A893E8C1C9318BE00B4E939 /* CoreMedia.framework */,
+				8A893E8D1C9318BE00B4E939 /* CoreMotion.framework */,
+				19928CCFE4189CCEC4A27431 /* libPods-openCVSpike.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40587BAEAAB8182B63AD549B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7802666850817BF2B1B07653 /* Pods-openCVSpike.debug.xcconfig */,
+				C4A6D660F8C270A299156C6B /* Pods-openCVSpike.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ABC7D341C93166C00F5CF03 = {
+			isa = PBXGroup;
+			children = (
+				8ABC7D3F1C93166C00F5CF03 /* openCVSpike */,
+				8ABC7D3E1C93166C00F5CF03 /* Products */,
+				40587BAEAAB8182B63AD549B /* Pods */,
+				1D1DF4C0BAEE7449139C4E24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8ABC7D3E1C93166C00F5CF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ABC7D3D1C93166C00F5CF03 /* openCVSpike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ABC7D3F1C93166C00F5CF03 /* openCVSpike */ = {
+			isa = PBXGroup;
+			children = (
+				8ABC7D431C93166C00F5CF03 /* AppDelegate.h */,
+				8ABC7D441C93166C00F5CF03 /* AppDelegate.mm */,
+				8ABC7D461C93166C00F5CF03 /* ViewController.h */,
+				8ABC7D471C93166C00F5CF03 /* ViewController.mm */,
+				8ABC7D491C93166C00F5CF03 /* Main.storyboard */,
+				8ABC7D4C1C93166C00F5CF03 /* Assets.xcassets */,
+				8ABC7D4E1C93166C00F5CF03 /* LaunchScreen.storyboard */,
+				8ABC7D511C93166C00F5CF03 /* Info.plist */,
+				8ABC7D401C93166C00F5CF03 /* Supporting Files */,
+			);
+			path = openCVSpike;
+			sourceTree = "<group>";
+		};
+		8ABC7D401C93166C00F5CF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A893E961C931D8200B4E939 /* PrefixHeader.pch */,
+				8ABC7D411C93166C00F5CF03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ABC7D3C1C93166C00F5CF03 /* openCVSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ABC7D541C93166C00F5CF03 /* Build configuration list for PBXNativeTarget "openCVSpike" */;
+			buildPhases = (
+				699FBFB5D750E00D00E1A8C8 /* Check Pods Manifest.lock */,
+				8ABC7D391C93166C00F5CF03 /* Sources */,
+				8ABC7D3A1C93166C00F5CF03 /* Frameworks */,
+				8ABC7D3B1C93166C00F5CF03 /* Resources */,
+				AB64934ECF1952F48D710B3D /* Embed Pods Frameworks */,
+				294EE998727B81202007CEF3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openCVSpike;
+			productName = openCVSpike;
+			productReference = 8ABC7D3D1C93166C00F5CF03 /* openCVSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ABC7D351C93166C00F5CF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BMO;
+				TargetAttributes = {
+					8ABC7D3C1C93166C00F5CF03 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8ABC7D381C93166C00F5CF03 /* Build configuration list for PBXProject "openCVSpike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ABC7D341C93166C00F5CF03;
+			productRefGroup = 8ABC7D3E1C93166C00F5CF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ABC7D3C1C93166C00F5CF03 /* openCVSpike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ABC7D3B1C93166C00F5CF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABC7D501C93166C00F5CF03 /* LaunchScreen.storyboard in Resources */,
+				8ABC7D4D1C93166C00F5CF03 /* Assets.xcassets in Resources */,
+				8ABC7D4B1C93166C00F5CF03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		294EE998727B81202007CEF3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-openCVSpike/Pods-openCVSpike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		699FBFB5D750E00D00E1A8C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB64934ECF1952F48D710B3D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-openCVSpike/Pods-openCVSpike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ABC7D391C93166C00F5CF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABC7D481C93166C00F5CF03 /* ViewController.mm in Sources */,
+				8ABC7D451C93166C00F5CF03 /* AppDelegate.mm in Sources */,
+				8ABC7D421C93166C00F5CF03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ABC7D491C93166C00F5CF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABC7D4A1C93166C00F5CF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ABC7D4E1C93166C00F5CF03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABC7D4F1C93166C00F5CF03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ABC7D521C93166C00F5CF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8ABC7D531C93166C00F5CF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ABC7D551C93166C00F5CF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7802666850817BF2B1B07653 /* Pods-openCVSpike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = openCVSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmo.openCVSpike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8ABC7D561C93166C00F5CF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A6D660F8C270A299156C6B /* Pods-openCVSpike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = openCVSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmo.openCVSpike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ABC7D381C93166C00F5CF03 /* Build configuration list for PBXProject "openCVSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABC7D521C93166C00F5CF03 /* Debug */,
+				8ABC7D531C93166C00F5CF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ABC7D541C93166C00F5CF03 /* Build configuration list for PBXNativeTarget "openCVSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABC7D551C93166C00F5CF03 /* Debug */,
+				8ABC7D561C93166C00F5CF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ABC7D351C93166C00F5CF03 /* Project object */;
+}
